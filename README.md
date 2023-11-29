@@ -1,4 +1,4 @@
-# Tutorial for Liftover Genes Positions (from hg19 to hg38)
+# Tutorial for Liftover of Genes Positions (from hg19 to hg38)
 *Created by:* Yazdan Asgari<br>
 *Creation date:* 29 Nov 2023<br>
 *Update:* 29 Nov 2023<br>
@@ -94,5 +94,5 @@ vroom_write(genes_hg19_sel, file = "genes_hg38.txt", delim = "\t", quote = "none
 - Ensure that the hg19 to hg38 chain file is present in the project directory.
 - Verify that the required R packages are installed before running the script.
 
-# Tutorial for Liftover Genes Positions (from hg38 to hg19)
+# Tutorial for Liftover of Genes Positions (from hg38 to hg19)
 Just simply use the exact previous procedure, but this time use *"hg38ToHg19.over.chain"* chain file (available in the [0_files](/0_files) folder) and switch the variable names *"hg19"* and *"hg38"* in the script.
