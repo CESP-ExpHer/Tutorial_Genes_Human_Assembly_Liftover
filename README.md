@@ -18,7 +18,7 @@ install.packages(c("rtracklayer", "GenomicRanges", "vroom"))
 **IMPORTANT NOTE:** This script needs some column names to be available in your Genes data (*"chr"*, *"start"*, *"end"*, and *"gene_name"*). *"chr"* column is in **character format** (example: *"chr1"*). If their names are different in your input data, do not forget to change them in the script before using it.
 
 ## Data Processing Steps
-1. Reading GWAS data
+1. Reading Genes data
 ```R
 library(rtracklayer)
 library(GenomicRanges)
