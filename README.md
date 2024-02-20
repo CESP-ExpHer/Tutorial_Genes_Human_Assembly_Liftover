@@ -1,7 +1,7 @@
 # Tutorial for Liftover of Genes Positions (from hg19 to hg38)
 *Created by:* Yazdan Asgari<br>
 *Creation date:* 29 Nov 2023<br>
-*Update:* 29 Nov 2023<br>
+*Update:* Feb 2024<br>
 https://cesp.inserm.fr/en/equipe/exposome-and-heredity
 <br>
 <br>
@@ -35,8 +35,8 @@ genes_hg19_sel["strand"] <- "+"
 # Check data types of genes_hg19_sel
 str(genes_hg19_sel)
 
-# Use this section ONLY if you have "NA" data in "start" column
-# Check for missing values in "start" column. If so, it then removes them
+# Use this section ONLY if you have "NA" data in the "start" column
+# Check for missing values in the "start" column. If so, it then removes them
 #sum(is.na(genes_hg19_sel$start))
 #genes_hg19_sel <- genes_hg19_sel[!is.na(genes_hg19_sel$start),]
 #sum(is.na(genes_hg19_sel$start))
